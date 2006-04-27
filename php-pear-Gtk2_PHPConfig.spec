@@ -52,4 +52,5 @@ rm -rf $RPM_BUILD_ROOT
 %{php_pear_dir}/.registry/*.reg
 %{php_pear_dir}/Gtk2/PHPConfig
 %{php_pear_dir}/Gtk2/PHPConfig.php
+%dir %{php_pear_dir}/data/Gtk2_PHPConfig
 %{php_pear_dir}/data/Gtk2_PHPConfig/phpinidefs.xml
