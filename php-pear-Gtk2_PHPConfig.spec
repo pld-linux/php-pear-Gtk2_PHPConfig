@@ -4,11 +4,12 @@
 %define		_status		beta
 %define		_pearname	Gtk2_PHPConfig
 
+%define		_rel	2
 Summary:	%{_pearname} - GUI Interface to the php.ini file
 Summary(pl):	%{_pearname} - graficzny interfejs do pliku php.ini
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
-Release:	0.RC1.1
+Release:	0.RC1.%{_rel}
 License:	LGPL Version 2.1
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}RC1.tgz
@@ -17,7 +18,7 @@ URL:		http://pear.php.net/package/Gtk2_PHPConfig/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
-Requires:	php-gtk2
+Requires:	php(gtk2)
 Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
