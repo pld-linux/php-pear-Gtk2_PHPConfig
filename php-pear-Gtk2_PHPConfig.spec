@@ -6,7 +6,7 @@
 
 %define		_rel	2
 Summary:	%{_pearname} - GUI Interface to the php.ini file
-Summary(pl):	%{_pearname} - graficzny interfejs do pliku php.ini
+Summary(pl.UTF-8):   %{_pearname} - graficzny interfejs do pliku php.ini
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
 Release:	0.RC1.%{_rel}
@@ -29,9 +29,9 @@ available in a php.ini file.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Przyjazny dla u¿ytkownika interfejs do ró¿nych opcji konfiguracyjnych
-dostêpnych w pliku php.ini
+%description -l pl.UTF-8
+Przyjazny dla uÅ¼ytkownika interfejs do rÃ³Å¼nych opcji konfiguracyjnych
+dostÄ™pnych w pliku php.ini
 
 Ta klasa ma w PEAR status: %{_status}.
 
