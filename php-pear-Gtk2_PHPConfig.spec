@@ -6,7 +6,7 @@
 
 %define		_rel	2
 Summary:	%{_pearname} - GUI Interface to the php.ini file
-Summary(pl.UTF-8):   %{_pearname} - graficzny interfejs do pliku php.ini
+Summary(pl.UTF-8):	%{_pearname} - graficzny interfejs do pliku php.ini
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
 Release:	0.RC1.%{_rel}
