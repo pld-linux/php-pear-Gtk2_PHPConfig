@@ -4,7 +4,7 @@
 %define		_status		beta
 %define		_pearname	Gtk2_PHPConfig
 
-%define		_rel	2
+%define		_rel	3
 Summary:	%{_pearname} - GUI Interface to the php.ini file
 Summary(pl.UTF-8):	%{_pearname} - graficzny interfejs do pliku php.ini
 Name:		php-pear-%{_pearname}
