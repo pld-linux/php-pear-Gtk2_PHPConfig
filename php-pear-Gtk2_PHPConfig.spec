@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		beta
 %define		_pearname	Gtk2_PHPConfig
 %define		subver	RC2
